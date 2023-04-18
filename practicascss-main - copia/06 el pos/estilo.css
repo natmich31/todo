@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: deeppink;
+    color: hotpink;
+    border: 2px solid palevioletred;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding:10px;
+    font-size: 40px
+}
+.pos1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: skyblue;
+}
+
+.pos2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: gold;
+}
+.pos3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: teal;
+}
+.pos4{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: royalblue;
+}
+.pos5{
+    position: relative;
+    top: 50px;
+    right: 50px;
+    background: salmon;
+}
+.pos6{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    background: aqua;
+}
+.pos7{
+    position: fixed;
+    top: 52%;
+    left: 52%;
+    background: rgba(0, 0, 255, 0.5);
+    z-index: 10;
+}
+    

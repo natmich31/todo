@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   display: block;
+   background: navajowhite;
+   border: grey;
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   color: white;
+   grid-gap: 10px;
+   grid-auto-rows: 150px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+   grid-auto-columns: 150px 250px 300px 200px 150px;
+
+}
+.item1{
+    grid-column: 1/6;
+    grid-row: 1;
+background: indianred;
+text-align: center;
+}
+.item2{
+    grid-column: 1;
+    grid-row: 2;
+background: lemonchiffon;
+}
+.item3{
+    grid-column: 1;
+    grid-row: 2/3;
+background: plum;
+}
+.item4{
+    grid-column: 1;
+    grid-row: 3/4;
+background:palevioletred;
+}
+.item5{
+    grid-column: 1;
+    grid-row: 4/5;
+background:lightsalmon;
+}
+.item6{
+    grid-column: 1;
+    grid-row: 5/6;
+background:lightgoldenrodyellow;
+}
+.item7{
+    grid-column:1;
+    grid-row: 6/7;
+background: lightcoral;
+}
+.item8{
+    grid-column: 1;
+    grid-row: 7;
+background:lightskyblue;
+}
+.item14{
+    grid-column: 1;
+    grid-row: 8/10;
+background:teal;
+}
+.item10{
+    grid-column: 2/4;
+    grid-row: 2/10;
+background:lightgreen;
+text-align:center;
+}
+.item11{
+    grid-column: 4/6;
+    grid-row: 2/6;
+background: turquoise;
+text-align:center;
+border: black;
+}
+.item12{
+    grid-column: 4/6;
+    grid-row: 6/10;
+background:lightseagreen;
+text-align:center;
+border: black
+}
+.item13{
+    grid-column: 1/6;
+    grid-row: 10;
+background: hotpink;
+text-align: center;
+}
